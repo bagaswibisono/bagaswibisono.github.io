@@ -1,0 +1,575 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+}
+
+body{
+	background-color: #f5f5f5;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+/* HEADER */
+.header{
+	background: rgba(0,0,0,0.9);
+	position: fixed;
+	z-index: 12;
+	width: 100%;
+}
+
+.logo{
+	width: 84px;
+	border: 1px solid #fff;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.logo a, .navbar a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo a{
+	font-size: 18px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+.logo .highlight{
+	color: #ffe018;
+}
+
+.navbar{
+	margin: 22px 0;
+	display: block;
+	text-align: center;
+}
+
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar li{
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.navbar li a.active{
+	color: #ffe018;
+}
+
+.navbar li a:hover{
+	border-bottom: 2px solid #ffe018;
+}
+
+/* HOME */
+.home{
+	width: 100%;
+	height: 640px;
+	background-image: url("../image/yellow-train.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.home .box{
+	color: #fff;
+	width: 286px;
+	padding: 30px;
+	position: absolute;
+	margin-top: 427px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: rgba(0,0,0,0.5);
+}
+
+.home .box h1{
+	font-size: 40px;
+	font-family: Times new roman;
+	padding-bottom: 10px;
+}
+
+.home .box hr{
+	border: none;
+	width: 130px;
+	height: 3px;
+	background: #ffe018;
+}
+
+.home .box p{
+	padding-top: 15px;
+}
+
+
+/* INTRODUCTION */
+.introduction, .about{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	background: #1a1a1a;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.introduction .content, .about .content{
+	margin-top: 0px;
+	box-sizing: border-box;
+}
+
+.introduction .imgbox, .about .imgbox{
+	width: 260px;
+	margin: 0 auto;
+}
+
+.introduction .imgbox img, .about .imgbox img{
+	width: 260px;
+	position: relative;
+	padding: 0;
+}
+
+.introduction .textbox, .about .textbox{
+	width: 88%;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.introduction .textbox h3, .about .textbox h3{
+	padding-bottom: 10px; 
+	padding-left: 10px;
+	padding: 0 20px 10px 20px;
+	color: #ffe018;
+}
+
+.introduction .textbox h1, .about .textbox h1{
+	padding: 0 20px 20px 20px;
+	font-size: 40px;
+}
+
+.introduction .textbox p, .about .textbox p{
+	padding: 10px 20px;
+	line-height: 26px;
+	border-left: 4px solid #ffe018;
+}
+
+.introduction .textbox a, .about .textbox a{
+	text-decoration: none;
+	padding-top: 10px;
+	font-size: 14px;
+	color: #cfcfcf;
+}
+
+.introduction .textbox a:hover, .about .textbox a:hover{
+	color: #ffe018;
+}
+
+.introduction .textbox .cta-btn, .about .textbox .cta-btn{
+	width: 74px;
+	margin-top: 20px;
+	margin-left: 24px;
+	background: #ffe018;
+	padding: 10px 20px;
+}
+
+.introduction .textbox .cta-btn a, .about .textbox .cta-btn a{
+	color: #000000;
+	font-weight: bold;
+}
+
+.about .content{
+	padding-top: 0px;
+}
+
+.about h2{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+.about hr{
+	width: 80px;
+	height: 3px;
+	margin: 0 auto;
+	border: none;
+	background: #ffe018;
+	margin-bottom: 40px;
+}
+
+.about .bio{
+	padding-bottom: 80px;
+}
+
+.about .bio h2{
+	text-align: center;
+	color: #ffe018;
+	padding-top: 0;
+}
+
+.about .bio p{
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	padding-top: 30px;
+	line-height: 26px;
+}
+
+.about table{
+	margin: 20px auto;
+	width: 80%;
+}
+
+.about table tr td{
+	border: 1px solid #fff;
+	padding: 10px;
+}
+
+.about table tr td.row-title{
+	color: #ffe018;
+}
+
+.about table tr td span{
+	color: #ffe018;
+}
+
+.about table tr td h4{
+	text-align: center;
+	font-size: 20px;
+	color: #ffe018;
+}		
+
+/* TOOLSKILL */
+.toolskill{
+	text-align: center;
+	background: #0c0c0c;
+}
+
+.toolskill h2{
+	color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.toolskill hr{
+	width: 80px;
+	height: 3px;
+	margin: 0 auto;
+	border: none;
+	background: #ffe018;
+}
+
+.toolskill .content{
+	padding-bottom: 40px;
+}
+
+.toolskill img{
+	width: 60px;
+	padding: 40px 16px 0px 16px;
+}
+
+/* SERVICES */
+.services{
+	width: 100%;
+	height: 100%;
+}
+
+.services .wrapper{
+	padding-top: 40px;
+}
+
+.services h2{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.services hr{
+	width: 80px;
+	height: 3px;
+	margin: 0 auto;
+	border: none;
+	background: #ffe018;
+}
+
+.services .content{
+	box-sizing: border-box;
+}
+
+.services .box{
+	width: 64%;
+	margin: 60px auto;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 12px 12px 10px #e9e9e9;
+}
+
+.services .box .icon{
+	text-align: center;
+}
+
+.services .box img{
+	width: 60px;
+}
+
+.services h3{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.services p{
+	padding: 16px 12px;
+}
+
+
+/* CONTACT */
+.contact{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	background: #1a1a1a;
+}
+
+.contact .wrapper{
+	padding-top: 80px;
+}
+
+.contact h2{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.contact hr{
+	width: 80px;
+	height: 3px;
+	margin: 0 auto;
+	border: none;
+	background: #ffe018;
+}
+
+.contact .content{
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+
+.contact .info{
+	width: 64%;
+	margin: 0 auto;
+	padding: 50px;
+	background: #101010;
+}
+
+.contact h4{
+	color: #ffe018;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.contact h4 .text{
+	padding-left: 10px;
+}
+
+.contact img{
+	padding: 0;
+	width: 20px;
+}
+
+.contact p{
+	padding-bottom: 26px;
+}
+
+.contact .form{
+	width: 64%;
+	margin: 0 auto;
+	padding: 50px;
+	background: #fbfbfb;
+}
+
+.contact form p{
+	color: #ff0000;
+	display: none;
+	font-size: 14px;
+}
+
+.contact .inputField{
+	margin-bottom: 20px;
+	border-bottom: 2px solid #000;
+}
+
+.contact .inputField input, textarea{
+	width: 100%;
+	height: 30px;
+	border: none;
+	padding: 14px 2px;
+	font-size: 16px;
+	font-family: 'Roboto';
+	background: transparent;
+}
+
+.contact .inputField textarea{
+	height: 48px;
+	resize: none;
+}
+
+.contact .submitBtn{
+	text-align: center;
+}
+
+.contact .submitBtn input[type="submit"]{
+	width: 160px;
+	border: none;
+	padding: 10px 30px;
+	margin: 10px 0 0 0;
+	background: #ffe018;
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.contact .submitBtn input[type="submit"]:hover{
+	background: #ffff00;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+.footer{
+	width: 100%;
+	background: #000;
+	padding: 16px 0px;
+	color: #fff;
+}
+
+.footer .content{
+	text-align: center;
+}
+
+.footer img{
+	width: 40px;
+	margin: 30px 4px 10px 4px;
+}
+
+.footer li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.footer li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer li a:hover{
+	color: #d0d0d0;
+}
+
+.footer hr{
+	margin: 30px 0;
+	border: none;
+	height: 1px;
+	background: #ffffff;
+}
+
+.footer .copy p{
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}	
+
+/* HEADER */
+.logo{
+	float: left; 
+}
+
+.navbar{
+	float: right;
+	display: block;
+}
+
+.navbar li{
+	margin: 0;
+	margin-left: 30px;
+}
+
+/* HOME */
+.home .box{
+	margin-left: 0px;
+}
+
+}
+
+/* SERVICES */
+.services h2{
+	padding-top: 80px;
+}
+
+/* CONTACT */
+.contact h2{
+	padding-top: 40px;
+}
+
+@media only screen and (min-width: 1000px) {
+.wrapper{
+	max-width: 1400px;
+}
+
+/* INTRODUCTION */
+.introduction, .about{
+	height: 100%;
+	padding: 20px 0;
+}
+
+.introduction .content, .about .content{
+	display: flex;
+	margin: 60px;
+	margin-bottom: 0px;
+	flex-direction: row-reverse;
+}
+
+.introduction .imgbox, .about .imgbox{
+	margin-right: 50px;
+	margin-bottom: 100px;
+} 
+
+.introduction .textbox, .about .textbox{
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-right: 80px;
+}
+
+/* SERVICES */
+.services{
+	height: 100%;
+	margin-bottom: 60px;
+}
+
+.services .content{
+	display: flex;
+	margin: 0 40px;
+}
+
+.services .box{
+	width: 30%;
+	margin: 60px 10px;
+}
+
+/* CONTACT */
+.contact {
+	height: 100%;
+	padding: 40px 0;
+	padding-top: 0px;
+}
+
+.contact .content{
+	display : flex;
+	margin: 0 40px;
+}
+
+}
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>WEBSIGN | Web Design</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../css/styles.css">
+		<script src="../js/contact.js"></script>
+	</head>
+	
+	<body>
+		<div class="header">
+			<div class="wrapper">
+				<div class="logo"><a href="#home"><span class="highlight">WEB</span>SIGN</a></div>
+				<div class="navbar">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a class="active" href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="contact">
+			<div class="wrapper">
+				<h2>Contact</h2><hr>
+				<div class="content">
+					<div class="info">
+						<div class="text-info">
+							<h4>
+								<img src="../image/pin.png"><span class="text">Location</span>
+							</h4>
+							<p>	Jl. RS. Fatmawati Raya, Pd. Labu, Kec. Cilandak, 
+								Kota Depok, Jawa Barat 12450</p>
+						</div>
+						
+						<div class="text-info">
+							<h4>
+								<img src="../image/email.png">
+								<span class="text">Email</span>
+							</h4>
+							<p>bagasaw@upnvj.ac.id</p>
+						</div>
+						
+						<div class="text-info">
+							<h4>
+								<img src="../image/phone-call.png">
+								<span class="text">Phone</span>
+							</h4>
+							<p>021-XXXX-XXXX</p>
+						</div>
+					</div>
+					<div class="form">
+						<form id="myForm" onSubmit="return validation()" action="" method="POST">
+							<div class="inputField">
+								<input type="text" id="fname" placeholder="First Name"></input>
+							</div>
+							<p id="errorFN">* Please enter valid first name</p>
+							
+							<div class="inputField">
+								<input type="text" id="lname" placeholder="Last Name"></input>
+							</div>
+							<p id="errorLN">* Please enter valid last name</p>
+							
+							<div class="inputField">
+								<input type="text" id="email" placeholder="Email"></input>
+							</div>
+							<p id="errorEmail">* Please enter valid email address</p>
+							
+							<div class="inputField">
+								<textarea id="message" placeholder="Enter your message here"></textarea>
+							</div>
+							<p id="errorMsg">* Please enter valid message</p>
+							
+							<div class="submitBtn">
+								<input type="submit" id="submit" value="SUBMIT">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="wrapper">
+				<div class="content">
+					<img src="../image/instagram.png">
+					<img src="../image/twitter.png">
+					<img src="../image/facebook.png">
+					<img src="../image/linkedin.png">
+					<img src="../image/google-plus.png">
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<hr>
+				<div class="copy"><p>Websign&copy;2020. All Right Reserved.</p></div>
+			</div>
+		</div>
+	</body>
+</html>
